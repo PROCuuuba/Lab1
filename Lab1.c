@@ -28,6 +28,10 @@ int division()
 
 int main()
 {
+    double a = 7;
+    double b = 5;
+    printf("%.0lf / %.0lf = %lf", a, b, a/b);
+
     printf("1\n2\n3\n");
 
     printf("1\t\n 2\t\n  3\t\n");
